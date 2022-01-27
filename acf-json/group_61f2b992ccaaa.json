@@ -64,9 +64,9 @@
         },
         {
             "key": "field_61f2bed3fc69c",
-            "label": "Link of the Project",
-            "name": "link",
-            "type": "text",
+            "label": "Live Project link",
+            "name": "live-link",
+            "type": "url",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -76,10 +76,23 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "placeholder": ""
+        },
+        {
+            "key": "field_61f2c19d0d5c0",
+            "label": "Preview Project link",
+            "name": "preview-link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
         }
     ],
     "location": [
@@ -99,6 +112,6 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "show_in_rest": 0,
-    "modified": 1643298625
+    "show_in_rest": 1,
+    "modified": 1643301697
 }
