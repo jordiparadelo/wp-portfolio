@@ -39,6 +39,12 @@ if(class_exists('acf')){
 			'parent_slug' => "theme-settings",
 		));
 	}
+
+	// Dynamic add POST_TITLE to acf text field
+	add_filter('acf/load_field/name=dyn_post_title', function($field) {
+		$field['default_value'] = get_the_title();
+		return $field;
+	});
 }
 
 // ADD SVG TO WP
